@@ -68,7 +68,7 @@ application:
 
 ## Examples
 
-For a complete, working example check the server.js file[Moving it to a folder].
+For a complete, working example check the server.js file in the example folder.
 
 
 ## Thanks to
