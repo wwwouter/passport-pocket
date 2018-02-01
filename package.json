@@ -5,7 +5,7 @@
     "main": "./pocket-strategy.js",
     "repository": {
         "type": "git",
-        "url": "git://github.com/Siedrix/passport-pocket.git"
+        "url": "git://github.com/wwwouter/passport-pocket.git"
     },
     "dependencies": {
         "passport": "0.4.0",

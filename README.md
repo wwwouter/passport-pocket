@@ -1,4 +1,6 @@
-# Passport-Pocket 
+# Passport-Pocket
+
+Based upon https://github.com/Siedrix/passport-pocket
 
 [Passport](http://passportjs.org/) strategy for authenticating with [Pocket](http://getpocket.com)
 using the OAuth 1.0a API.
@@ -11,18 +13,18 @@ unobtrusively integrated into any application or framework that supports
 
 ## Installation
 
-    $ npm install passport-pocket
+    $ npm install @wwwouter/passport-pocket
 
 ## Usage
 
 #### Configure Strategy
 
-The Pocket authentication strategy authenticates users using a Pocket account.  
+The Pocket authentication strategy authenticates users using a Pocket account.
 The strategy requires a `verify` callback, which receives the
 access token and username as arguments. The `verify` callback must
 call `done` providing a user to complete authentication.
 
-In order to identify your application to Pocket, specify the consumer key and callback URL within `options`.  
+In order to identify your application to Pocket, specify the consumer key and callback URL within `options`.
 The consumer key and secret are obtained by [creating an application](http://getpocket.com/developer/apps/new) at
 Pockets's [developer](http://getpocket.com/developer/) site.
 
@@ -72,6 +74,7 @@ For a complete, working example check the server.js file[Moving it to a folder].
 ## Thanks to
 
 - [Jared Hanson](http://github.com/jaredhanson)
+- https://github.com/Siedrix/
 
 ## License
 
